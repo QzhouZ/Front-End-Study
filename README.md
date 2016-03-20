@@ -22,13 +22,13 @@ js负责交互，就是用户所能操作的部分。
 - [前端开发工具技巧介绍—Sublime篇](http://www.imooc.com/view/40)
 - [jQuery基础课程](http://www.imooc.com/view/11)
 - [玩转Bootstrap（基础）](http://www.imooc.com/view/141)
-- [相关学习社区](http://gitlab.zlzkj.org/Qzhou/Front-End/tree/master/STUDY.md)
+- [相关学习社区](/STUDY.md)
 
 # 编程规范
 参考规范，逐渐形成自己的编程风格，可以提升对代码的组织能力和可读性。
 
-- [css规范](http://gitlab.zlzkj.org/Qzhou/Front-End/tree/master/CSS-standard.md)
-- [javascript规范](http://gitlab.zlzkj.org/Qzhou/Front-End/tree/master/JS-standard.md)
+- [css规范](/CSS-standard.md)
+- [javascript规范](/JS-standard.md)
 - html结构规范请参考当前项目文件下的``view/index.html``
 
 # 工具使用
@@ -60,7 +60,7 @@ java环境开发``IntelliJ IDEA``
   - JS设计模式和原型的理解
 
 # 项目实践
-[项目实践](http://gitlab.zlzkj.org/Qzhou/Front-End/tree/master/project-test.md)
+[项目实践](/project-test.md)
 
 # 前端工程师基础知识结构
 ![](/fed-list.jpg)
