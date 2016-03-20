@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>前端模板</title>
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+    <!-- Mobile Specific Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="stylesheet" href="../../static/app/css/app.css">
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+	<link rel="stylesheet" href="../../static/mod/flexslider/flexslider.css" />
+	<script src="static/seajs/sea.js"></script>
+	<script src="static/seajs/config.js"></script>
+	<style>
+		.box {
+			display: inline-block;
+			margin-left: 20px;
+			width: 150px;
+			height: 150px;
+			color: #fff;
+			background-color: #0074d9;
+			text-align: center;
+			line-height: 150px;
+		}
+	</style>
+</head>
+<body>
+	<!-- 主体部分 -->
+	<div class="content f14">
+		<div class="container">
+			<h1>轮播组件使用</h1>
+			<div class="slider-box flexslider">
+				<ul class="slides">
+				    <li>
+				      	<a href="#"><img src="img/s1.jpg"></a>
+				    </li>
+				    <li>
+				     	<a href="#"><img src="img/s2.jpg"></a>
+				    </li>
+			  	</ul>
+			</div>
+		</div>
+	</div>
+	<!-- /主体部分 -->
+	<script src="../../static/mod/jquery/jquery.min.js?v=1.10.2"></script>
+	<script src="../../static/mod/flexslider/flexslider.js"></script>
+	<script>
+		$(".flexslider").flexslider({
+		    animation: "slide"
+		});
+	</script>
+</body>
+</html>

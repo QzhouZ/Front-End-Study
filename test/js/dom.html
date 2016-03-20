@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>前端模板</title>
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+    <!-- Mobile Specific Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="stylesheet" href="../../static/app/css/app.css">
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+	<script src="static/seajs/sea.js"></script>
+	<script src="static/seajs/config.js"></script>
+	<style>
+		.box {
+			display: inline-block;
+			margin-left: 20px;
+			width: 150px;
+			height: 150px;
+			color: #fff;
+			background-color: #0074d9;
+			text-align: center;
+			line-height: 150px;
+		}
+	</style>
+</head>
+<body>
+	<!-- 主体部分 -->
+	<div class="content f14">
+		<div class="container">
+			<h1>DOM操作</h1>
+			<div class="mb20">
+				<div class="mb20">
+					<div class="box J_do">盒子一</div>
+					<div class="box">盒子二</div>
+					<div class="box">盒子三</div>
+					<div class="box">盒子四</div>
+					<div class="box J_do">盒子五</div>
+				</div>
+				<div class="handle">
+					<button class="btn btn-sm btn-success">按钮一</button>
+				</div>
+				<div class="question">
+					<h3>要求</h3>
+					<p>1、点击盒子一当前文字变成“我进行了点击操作”</p>
+					<p>2、点击盒子二盒子的字体颜色变黑色</p>
+					<p>3、点击盒子三所有盒子的字体颜色变黑色</p>
+					<p>4、点击盒子四宽度增加100px</p>
+					<p>5、点击盒子五为盒子添加一个bg-red的class，再点击一次移除这个class</p>
+					<p>6、点击按钮一,所有class中有J_do的盒子背景颜色变成红色</p>
+				</div>	
+			</div>
+			<div class="mb20">
+				<div class="mb20">
+					<div class="box J_do">盒子一</div>
+					<div class="box">盒子二</div>
+					<div class="box">盒子三</div>
+					<div class="box">盒子四</div>
+					<div class="box J_do">盒子五</div>
+				</div>
+				<div class="question">
+					<h3>要求</h3>
+					<p>1、鼠标移到盒子一，当前文字变成“我进行了点击操作”</p>
+					<p>2、鼠标移到盒子二，盒子的字体颜色变黑色</p>
+					<p>3、鼠标移到盒子三，所有盒子的字体颜色变黑色</p>
+					<p>4、鼠标移到盒子，四宽度增加100px</p>
+					<p>5、鼠标移到盒子五，黑子变红色，移开恢复原来颜色</p>
+				</div>
+			</div>
+			<div>
+				演示地址：<a class="blue" href="http://qzhouz.github.io/test/dom.html" target="_blank">http://qzhouz.github.io/test/dom.html</a>
+			</div>
+		</div>
+	</div>
+	<!-- /主体部分 -->
+</body>
+</html>

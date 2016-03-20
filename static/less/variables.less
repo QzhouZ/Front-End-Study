@@ -1,0 +1,128 @@
+//
+// 变量配置
+// -------------------------------
+
+
+// 颜色值
+// -------------------------
+@blue:                  #049cdb;
+@blueDark:              #0064cd;
+@green:                 #46a546;
+@red:                   #9d261d;
+@yellow:                #ffc40d;
+@orange:                #FE6B01;
+@orange2:               #f89406;
+@pink:                  #c3325f;
+@purple:                #7a43b6;
+@green: 				        #47a447;
+@darkGreen: 		        #398439;
+@darkenColor:           darken(@color, 15%);
+
+
+// 字体样式
+// -------------------------
+@font-base:             'Microsoft Yahei',arial,e("\5b8b\4f53;");
+@sansFontFamily:        "Helvetica Neue", Helvetica, Arial, sans-serif;
+@serifFontFamily:       Georgia, "Times New Roman", Times, serif;
+@monoFontFamily:        Monaco, Menlo, Consolas, "Courier New", monospace;
+
+
+//  站点默认配置
+// --------------------------
+
+@color: @orange; // 站点主要颜色
+@bodyBackground:        #fff; // 背景颜色
+@textColor:             #333; // 字体颜色
+
+@linkColor:             #333; // 连接同颜色
+@linkColorHover:        @color; // 连接hover颜色
+// @linkColorHover:        darken(@color, 15%);
+
+@baseFontSize:          12px; // 默认字体大小
+@baseFontFamily:        @font-base; // 默认字体风格
+@baseLineHeight:        18px; // 默认行高
+
+// 布局配置
+// --------------------------------------------------
+
+// Default 1180px Grid-row
+// 计算宽度的算法：
+// width =  12 * @gridColumnWidth + 11 * @gridGutterWidth;
+// 1180 = 12 * 80 + 11 * 20;
+// 1060 = 12 * 70 + 11 * 20;
+// 
+// 获取有几(n)栏的算法：
+// 以1060宽度为例,栏宽70,槽宽20，
+// 左右两栏,左边790px,右边250px
+// n * (70 + 20) = 790 + 20; => 左栏n = 9;
+// n * (70 + 20) = 250 + 20; => 右栏n = 3;
+// -------------------------
+@gridColumns:             12; // 12栏
+@gridColumnWidth:         80px; // 每一栏的宽度
+@gridGutterWidth:         20px; // 槽宽，槽宽是每一栏的间距，12栏的话，就有11个间距
+@gridRowWidth:            (@gridColumns * @gridColumnWidth) + (@gridGutterWidth * (@gridColumns - 1)); // 总宽度
+
+// 1200px min
+@gridColumnWidth1200:     80px;
+@gridGutterWidth1200:     20px;
+@gridRowWidth1200:        (@gridColumns * @gridColumnWidth1200) + (@gridGutterWidth1200 * (@gridColumns - 1));
+
+// 768px-979px
+@gridColumnWidth768:      42px;
+@gridGutterWidth768:      20px;
+@gridRowWidth768:         (@gridColumns * @gridColumnWidth768) + (@gridGutterWidth768 * (@gridColumns - 1));
+
+
+// Fluid grid
+// -------------------------
+@fluidGridColumnWidth:    percentage(@gridColumnWidth/@gridRowWidth);
+@fluidGridGutterWidth:    percentage(@gridGutterWidth/@gridRowWidth);
+
+// 1200px min
+@fluidGridColumnWidth1200:     percentage(@gridColumnWidth1200/@gridRowWidth1200);
+@fluidGridGutterWidth1200:     percentage(@gridGutterWidth1200/@gridRowWidth1200);
+
+// 768px-979px
+@fluidGridColumnWidth768:      percentage(@gridColumnWidth768/@gridRowWidth768);
+@fluidGridGutterWidth768:      percentage(@gridGutterWidth768/@gridRowWidth768);
+
+// 混合变量方法
+// --------------------------------------------------
+
+.opacity(@v,@v2:@v*100){
+  opacity: @v;
+  filter: progid:DXImageTransform.Microsoft.Alpha(opacity=@v2);
+  filter:alpha(opacity=@v2);
+}
+// Molecule less
+.bd(@w:1px,@color:#ddd){
+  border: 1px solid @color;
+  border-width: @w;
+}
+.box(@w,@h,@p){
+  width:@w;
+  height:@h;
+  padding:@p;
+}
+.dib(){
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+.abs-l(@t:0,@l:0){
+  position: absolute;
+  top: @t;
+  left: @l;
+}
+.abs-r(@t:0,@r:0){
+  position: absolute;
+  top: @t;
+  right: @r;
+}
+
+.fix() {
+  *zoom: 1;
+  &:after {
+    display: table; content: ''; clear: both;
+  }
+}
