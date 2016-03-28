@@ -1,13 +1,14 @@
 # Front-End-Study
 前端开发基础知识学习
 
-# 了解前端开发
+# 了解前端
 
 - [给一位打算从事前端，但是又有疑惑的在校大学生的回信](https://github.com/xufei/blog/issues/4)
 - [前端工程师是怎样一种职业](http://www.cnblogs.com/lvdabao/p/5229640.html)
 - [专访｜腾讯UI工程师@张鑫旭](http://mp.weixin.qq.com/s?__biz=MjM5MTA1MjAxMQ==&mid=402128801&idx=1&sn=6187b917d7f7666f00fdfb5f9b67a026)
 - [Web前端开发十日谈](http://kb.cnblogs.com/page/159704/)
 - [做一个网站多少钱?](http://kb.cnblogs.com/page/503631/)
+- [一个前端的自我修养](http://taobaofed.org/blog/2016/03/23/the-growth-of-front-end/)
 
 # 基础学习
 前端基础：html、css、js;   
