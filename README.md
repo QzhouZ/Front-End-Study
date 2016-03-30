@@ -9,6 +9,7 @@
 - [Web前端开发十日谈](http://kb.cnblogs.com/page/159704/)
 - [做一个网站多少钱?](http://kb.cnblogs.com/page/503631/)
 - [一个前端的自我修养](http://taobaofed.org/blog/2016/03/23/the-growth-of-front-end/)
+- [我所亲见的前端技术变革](http://zhuanlan.zhihu.com/p/20359442)
 
 # 基础学习
 前端基础：html、css、js;   
