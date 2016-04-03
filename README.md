@@ -38,7 +38,7 @@ js负责交互，就是用户所能操作的部分。
 
 ### 常用工具
 编辑器推荐``Sublime Text``	
-java环境开发``IntelliJ IDEA``	
+java环境开发``IntelliJ IDEA``		
 图片处理``Photoshop``		
 代码管理``SourceTree``	
 笔记工具``Evernote``		
