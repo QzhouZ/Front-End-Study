@@ -37,11 +37,11 @@ js负责交互，就是用户所能操作的部分。
 对基础性的知识有所了解后，我们可以学习使用一些相应的工具提升工作效率
 
 ### 常用工具
-编辑器推荐``Sublime Text``
-java环境开发``IntelliJ IDEA``
-图片处理``Photoshop``
-代码管理``SourceTree``
-笔记工具``Evernote``
+编辑器推荐``Sublime Text``	
+java环境开发``IntelliJ IDEA``	
+图片处理``Photoshop``		
+代码管理``SourceTree``	
+笔记工具``Evernote``		
 
 ### 调试工具
 可以用谷歌浏览器或火狐浏览器，
