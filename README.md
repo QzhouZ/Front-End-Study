@@ -10,6 +10,8 @@
 - [做一个网站多少钱?](http://kb.cnblogs.com/page/503631/)
 - [一个前端的自我修养](http://taobaofed.org/blog/2016/03/23/the-growth-of-front-end/)
 - [我所亲见的前端技术变革](http://zhuanlan.zhihu.com/p/20359442)
+- [写给想成为前端工程师的同学们](https://www.h5jun.com/post/to-be-a-good-frontend-engineer)
+- [如何提问才能进阶成为前端大神](http://www.zhangxinxu.com/wordpress/2015/05/how-to-ask-web-front-question/)
 
 # 基础学习
 前端基础：html、css、js;   
